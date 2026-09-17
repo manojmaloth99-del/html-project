@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+        <h1>Course Registration Form</h1>
+        <form action="url">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <table>
+                    <tr>
+                        <td><label>Full Name:</label></td>
+                        <td> <input type="text" placeholder="Maloth Manoj Kumar" maxlength="20" name="FN"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Father Name:</label></td>
+                        <td><input type="text" placeholder="Veeranna" maxlength="20" name="LN"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Mobile Nimber:</label></td>
+                        <td><input type="tel" placeholder="XXX-XXX-XXXX" maxlength="20" name="mob"></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" placeholder="abc@gmail.com" size="20" name="mail"></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type="password" placeholder="min 5 Characters" size="20" name="psw"></td>
+                    </tr>
+                    <tr>
+                        <td>Confirm Password:</td>
+                        <td><input type="password" placeholder="min 5 Characters" size="20" name="cpsw"></td>
+                    </tr>
+                    <tr>
+                        <td><label>DOB:</label></td>
+                        <td><input type="date" size="20" name="dob"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Gender:</label></td>
+                        <td><input type="radio" name="gender" value="M"> Male
+                            <input type="radio" name="gender" value="F"> Female
+                            <input type="radio" name="gender" value="O"> Others
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Select State:</label></td>
+                        <td>
+                            <select name="state">
+                                <option value="Hyd">Hyderabad</option>
+                                <option value="Bang">Banglore</option>
+                                <option value="Che">Chennai</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Upload Photo:</label></td>
+                        <td><input type="file" placeholder="20" name="photo"></td>
+                    </tr>
+                </table>
+                <input type="reset">
+            </fieldset>
+            <fieldset>
+                <legend>Course Details</legend>
+                <table>
+                    <tr>
+                        <td><label>Select Course:</label></td>
+                        <td>
+                            <select name="course">
+                                <option value="java">Java Full Stack</option>
+                                <option value="python">Python Full Stack</option>
+                                <option value="cc">C Language</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Delivery Mode:</label></td>
+                        <td><input type="checkbox" name="delivery" value="off">Offline
+                            <input type="checkbox" name="delivery" value="on">Online
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>More datails about course:</td>
+                        <td><a href="1stClsAttach.html">Click here</a></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <input type="image" src="download.jfif" height="75" width="75" alt="Submit">
+        </form>
+</body>
+</html>
